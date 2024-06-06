@@ -1,0 +1,292 @@
+﻿
+@* 
+<form asp-controller="Home" asp-action="Index" method="post">
+    <button name="back"type="submit"  value="1">Back to Home</button>
+</form>
+
+<form asp-controller="Home" asp-action="Index" method="post" >
+	<button id="Homeb" name="back" type="submit" value="2" class="custom-button icon-button">
+		<i class="fa-solid fa-house"></i>
+	</button>
+</form> *@
+
+
+
+
+@{
+    ViewData["Title"] = "Gis 2.0";
+    Layout = null;
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>Gis 2.0</title>
+
+    <!-- Referencia a los estilos desde wwwroot -->
+    <link rel="stylesheet" type="text/css" href="~/Content/libs/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="~/Cesium/Build/CesiumUnminified/Widgets/widgets.css" />
+ 
+    
+
+
+
+    <!-- Referencia a los scripts desde wwwroot -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="~/Cesium/Build/CesiumUnminified/Cesium.js"></script>
+    <script src="~/Content/libs/jquery/jquery-3.1.1.min.js"></script>
+    <script src="~/Content/libs/jquery-ui/jquery-ui.min.js"></script>
+
+
+    <style>
+        body, * {
+            font-family: Arial, sans-serif;
+        }
+
+        #cesiumContainer {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+        }
+
+        #fileInput {
+            display: none;
+        }
+
+        #slider {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 0px;
+            background-color: #17202A;
+            width: 10px;
+            height: 100%;
+            z-index: 9999;
+            opacity: 0.5;
+        }
+
+            #slider:hover {
+                cursor: ew-resize;
+            }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: calc(100% + 10px); /* Posiciona el modal debajo del botón */
+            left: 50%;
+            transform: translate(-50%, 0);
+            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+            z-index: 1;
+            max-width: 250px;
+            width: 80%;
+        }
+
+
+        .modal-content {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            box-sizing: border-box;
+            max-height: calc(100vh - 50px);
+            overflow-y: auto;
+        }
+
+        .title-section h2 {
+            margin: 0;
+            color: #fff;
+            font-weight: bold;
+            font-size: small;
+            text-align: center;
+        }
+
+        .closebton {
+            background-color: #990000; /* Rojo oscuro */
+            color: #fff; /* Texto blanco para el botón Cancel */
+            padding: 5px 10px; /* Tamaño más pequeño */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 5px; /* Agregar margen para separar los botones */
+        }
+
+        #closew:hover {
+            background-color: #550000; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        #closew2:hover {
+            background-color: #550000; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        #saveFile {
+            background-color: #006600; /* Verde oscuro */
+            color: #fff; /* Texto blanco para el botón Save */
+            padding: 5px 10px; /* Tamaño más pequeño */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 5px; /* Agregar margen para separar los botones */
+        }
+
+            #saveFile:hover {
+                background-color: #004400; /* Cambia el color de fondo al pasar el mouse */
+            }
+
+
+
+        .custom-buttons {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin: 5px;
+        }
+
+            .custom-buttons:hover {
+                background-color: #005B8C;
+            }
+
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+    <div id="cesiumContainer"></div>
+
+    <div id="slider"></div>
+    <!-- Contenedor de los botones -->
+
+
+    <div class="button-container">
+        <a href="/Home/Index" class="btn-container btn btn-dark">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <!-------------------------------------------------MODAL DATA MANAG----------------------------------------------------------->
+        <label id="openmodal1" class="btn-container btn btn-dark">
+            <i class="fa-solid fa-folder-open"></i>
+        </label>
+
+        <div id="myModal1" class="modal">
+            <div class="modal-content">
+                <div class="title-section">
+                    <h2>LOAD FILES</h2>
+                </div>
+                <hr>
+                <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+                    <label for="fileInput" class="custom-buttons">
+                        Select File
+                    </label>
+                    <input type="file" id="fileInput" name="file_key" style="display: none;" accept=".kml, .kmz, .czml, .topojson, .geojson, .json, .gpx">
+                </div>
+                <hr>
+                <div class="title-section">
+                    <h2>SELECTED FILE:</h2>
+                </div>
+
+                <br>
+                <p id="selectedFileName" style="display: none;"></p>
+                <hr>
+                <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                    <button class="custom-button closebton" id="closew">Cancel</button>
+                    <button class="custom-button" id="saveFile">Save</button>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------------------------------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------MODAL DISPLAY---------------------------------------------------------------------------->
+
+        <label id="openmodal2" class="btn-container btn btn-dark">
+            <i class="fa-solid fa-layer-group"></i>
+        </label>
+        <div id="myModal2" class="modal">
+            <div class="modal-content">
+                <div class="title-section">
+                    <h2>DISPLAY</h2>
+                </div>
+                <hr>
+
+                <ul class="menuviewer2">
+                </ul>
+                <br>
+
+
+            </div>
+        </div>
+
+
+        <!----------------------------------------------------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------BOTONES DEL,REL,CUST,SLD----------------------------------------------------------->
+        
+        <button id="deletefile2" class="btn btn-dark">
+            <i class="fa-solid fa-trash"></i>
+        </button>
+
+        <button id="reloadess" class="btn btn-dark">
+            <i class="fa-solid fa-arrow-rotate-right"></i>
+        </button>
+
+        <button id="customG" class="btn btn-dark">
+            <i class="fa-solid fa-earth-americas"></i>
+        </button>
+
+        <button id="toggleButton" class="btn btn-dark">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+
+        <button id="cord" class="btn btn-dark">
+            <i class="fa-solid fa-globe"></i>
+        </button>
+
+        <button id="fps" class="btn btn-dark">
+            <i class="fa-solid fa-gauge-high"></i>
+        </button>
+
+
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="~/js/Load_Gis.js"></script>
+    <script type="text/javascript" src="~/js/Render_Gis.js"></script>
+    <script type="text/javascript" src="~/js/Funciones_data2.js"></script>
+</body>
+</html>

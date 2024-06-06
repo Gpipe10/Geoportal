@@ -1,0 +1,53 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .btn {
+            width: 150px; /* Puedes ajustar el ancho según tus necesidades */
+            height: 150px; /* Puedes ajustar la altura según tus necesidades */
+            font-size: 24px; /* Puedes ajustar el tamaño de la fuente según tus necesidades */
+            background-color: #BD1130; /* Color de fondo */
+            color: #fff; /* Color del texto, para que sea legible en el fondo oscuro */
+        }
+
+            .btn i {
+                margin-bottom: 10px; /* Espacio entre el icono y el texto */
+            }
+    </style>
+</head>
+<body>
+    <ul class="slideshow">
+        <li><span>Image 01</span></li>
+        <li><span>Image 02</span></li>
+        <li><span>Image 03</span></li>
+        <li><span>Image 04</span></li>
+        <li><span>Image 05</span></li>
+        <li><span>Image 06</span></li>
+    </ul>
+
+    <div class="overlay-container">
+        <img src="/Content/Img_Home/Logo.svg" alt="Logo" class="logo">
+        <h2>GEOPORTAL VIEWER</h2>
+
+        <form asp-controller="Home" asp-action="Index" method="post">
+            <button type="submit" name="viewerType" value="Lidar" class="btn btn-dark">
+                <i class="fa-solid fa-plane"></i><br>
+                3D Viewer
+            </button>
+
+            <button type="submit" name="viewerType" value="Gis" class="btn btn-dark">
+                <i class="fa-solid fa-globe"></i><br>
+                Viewer Gis
+            </button>
+        </form>
+    </div>
+</body>
+</html>

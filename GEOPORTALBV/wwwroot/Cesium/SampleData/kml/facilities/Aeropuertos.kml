@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Aeropuertos" id="Aeropuertos">
+	<SimpleField name="NOMBRE_GEO" type="string"></SimpleField>
+	<SimpleField name="PROYECTO" type="string"></SimpleField>
+	<SimpleField name="SYMBOL" type="string"></SimpleField>
+	<SimpleField name="FECHA" type="string"></SimpleField>
+	<SimpleField name="ESCALA" type="int"></SimpleField>
+	<SimpleField name="GLOBALID" type="string"></SimpleField>
+</Schema>
+<Folder><name>Aeropuertos</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PITALITO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{65A07160-5593-478D-8D75-C1043EE1A7C2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.0509131596349,1.8645753868589,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SAN MARTIN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{56DFDE57-9638-4F07-BD63-D47F2526565B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.7000000002874,3.71666666601458,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{0141DD76-434B-4299-ACB1-D36145FF7C59}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6499999996467,4.43333329980628,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GARZON - LA GUAMA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{F3C128CE-4A18-4300-845D-7239C8C73356}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.6666666596686,2.1666666655491,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PUERTO LLERAS NORTE</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D93BAAA3-80C3-48B8-B86E-0527CC2BD5EC}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.378044524514,3.28906467953421,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA PLATA PUERTO TRUJILLO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{8B90E5C7-C87D-446B-A2AA-00319DE40C59}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.37555555505,3.48805555533357,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">TOMACHIPAN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B1FDB840-7C46-4584-B074-1988BA6F94AB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7733333332682,2.30888888852338,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">VILLANUEVA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{AE588919-D521-4B0A-A689-B50010C1277A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9469444435951,4.62472222155688,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO PAZ DE ARIPORO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{8AB6F47F-85F2-4351-BB32-7C1F4C398D3B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8833333325823,5.89166666707115,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{BC167AEB-A584-4B05-B0BC-2E4840C4DDC6}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3564749948298,4.79232345783114,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PUERTO WILCHES</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{CA6F1A4B-0F25-4959-B3B7-FBB16309F1B7}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1480677931165,8.32557732856136,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SAN MARCOS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{43FFC68A-F664-4ED4-94D7-4EFC818B3EC6}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1735868386036,8.69327370725762,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Los Garzones</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{032DB6D6-B26B-4C71-BDE2-B43E57B20F54}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.8080863610082,8.83293963752024,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A23F21B5-D68E-4838-A2DC-47E0295EDD37}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2833332996825,4.51666666535602,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO GUAYMARAL</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{155DEF5D-24D9-4C46-939B-35577CAF203E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0681482900333,4.80086706475657,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SAN PEDRO DE URABA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{49CE5CF7-A57A-41F1-AB56-2970F6C355C4}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.3725694083107,8.25457230033668,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PLANADAS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{8B653237-AC93-4D03-94AC-CBA94E2CAEFD}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.733332999781,3.29999999943703,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{5E2A9315-7810-44CD-BED9-E1600CDB254A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4817003992103,8.35046643608287,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MARIQUITA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{5E17C0BD-AA99-4383-AF30-7C00E4D905AD}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.8836972221989,5.2125944438948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{992FED2B-A956-49C4-BBF8-A0B89115862F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.6953380473123,8.61630038319046,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA HERRERA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{1F015143-E61C-451E-845F-FCE090A5959E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.8500000004443,3.21666600069821,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GIRARDOT SANTIAGO VILA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B70C69AE-6724-43AC-9D50-BCF8CA22DC36}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7958138796981,4.30957777615118,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GENERAL NAVAS PARDE</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E53DDC48-B059-4461-9FEF-3D528A9DA957}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.463333056611,3.72408741999797,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{A95189AC-AAAD-4B1A-846C-84ACB3F77EE3}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7896928985051,8.46325582508577,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GONZALO MEJIA - TURBO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{28430710-8504-455F-8E73-311726993784}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7500072746927,8.08742286118178,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PERALES</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{80A3BAFA-8C98-4B91-A8B7-850F311A5554}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1576274874322,4.41035300014015,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B847DFF3-846E-4B87-B460-E3F5B206A9D3}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.212831593586,2.91683073534928,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Gualabao</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{51D17045-389B-4274-A0F9-005625D595C0}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7369079038045,6.47759393854083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">EL REFUGIO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2F290F08-6356-4E87-9502-7599FBF77F43}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8055341447924,2.1700063279426,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{625696BF-E1CC-4B77-AC92-C653F8693873}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.6237071083401,5.42286823875468,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{9ABE8F37-A4C1-4E3D-973E-AE17572A2AD2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.7278545314497,1.82737823812983,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{F26176F2-1F77-46C0-A62D-B3E90BAC5081}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.9597158077913,1.35959398186296,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">JERONIMO DE AGUAYO / CAMPO DE ATERRIZAJE</SimpleData>
+		<SimpleData name="PROYECTO">CAMPO DE ATERRIZAJE</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A40C84F5-E5B6-4852-B8D3-325ED567F9E7}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.7454812699715,6.71751238376477,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{DDA3267D-60D2-4A93-8930-23FBF1DEE12F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7424135444201,5.39488459207382,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CURUMANI</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{5230AB46-7A34-4122-9253-12F35FEBC55B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5722219995785,9.22222199996018,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">BECERRIL</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A3AA4F4E-6E04-4654-8012-0FA564407DE0}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2744444404863,9.66277770032072,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AGUACHICA HACARITAMA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{39DDA158-8DEA-4226-800D-0E59893B2BA2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6305549995294,8.29999999938748,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">FARFAN HERIBERTO GIL MAR</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E8214575-8824-4FB2-AE22-E0AEBBB9AD34}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.2236166663232,4.09637500060841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SANTA ANA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D9615024-0135-4969-9A97-6103DB88362F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.9559332997642,4.75846939956732,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">BUENAVENTURA</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{DACC74DC-6C63-45C6-9C60-B8F603496BDB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.9917310885623,3.81959188075769,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ALBERTO LLERAS CAMARGO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{35FE2FF8-2193-4BFC-9E87-1666A51F6B3A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9704833322974,5.67564444381265,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">JUAN JOSE RONDON</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{CD9594D3-39AA-4BD2-B3C9-39D2A57D8FAE}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1500000000358,5.78332999972147,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">La Moneda</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{9B6FBCD1-CCBC-451E-89D2-4A30BDD505FE}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.8625980062949,6.95477473913121,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{991EC678-1044-447B-B215-386D4907F88A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.2136030789552,6.3136302163654,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ARAUQUITA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2FB81229-55D7-4873-B84B-AD4041EA8FB6}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3333299998061,6.99999999978952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ZAPATOCA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A37A0409-CC1F-442A-BBD9-DB1902C8D784}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.249999999559,6.79999999919101,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">REMEDIOS OTU</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{0303A3DB-F987-4B8E-AF99-218BC2A4E80A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.69333207146,7.01118747174035,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">FRONTINO EL PLATEADO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{068C2006-7012-4C32-9504-E9DD3652AD59}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.1459999996084,6.73049999926734,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ANTONIO ROLDAN BETANCOURT</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{1E144C6E-FF78-4AC8-BF3F-F9345FB64411}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.715769000149,7.81181665975931,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PIZARRO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{545745E6-D795-4E03-80AE-63FABF2583AB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3749999995442,4.97500000013346,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LAB 2 PISTA DE ATERRIZAJE</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{61775CBE-4977-4252-B640-FC768DF80194}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1961530978379,7.96608590334443,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CINTURA SUDESTE</SimpleData>
+		<SimpleData name="PROYECTO">CINTURA SUDESTE</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{8BF9178E-D257-4E36-8ECD-6D098D3C22DA}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.0471440533621,6.89471166366009,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PUERTO WILCHES</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{C23D3F71-B53F-40E3-AE4E-C971F8280119}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8999999995144,7.35000000050045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LAS CRUCES / AGUACHICA FABAL</SimpleData>
+		<SimpleData name="PROYECTO">AGUACHICA FABAL</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{40DFFAD2-E84E-41A2-B93D-56A0F5937FFA}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5124947883689,7.384409042818,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{FFDE8E18-993C-477C-9B2B-D184B6DC9BC8}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.7729156993808,6.16432405147422,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO QUIBDO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A8B6518A-0325-4F4E-8B40-D568797DA9B2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.6434017111399,5.69271533056768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Vásquez Cobo</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2CC9B61B-839E-4ED3-90B0-4CA0203E6420}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-69.942464837749,-4.19250910862752,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LAS BRUJAS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{7EE8528B-179C-42F7-921B-A20DF7757205}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2885164016563,9.33516441439632,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CAMILO DAZA No 2</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{38C5ECA7-E0EA-49A9-9574-E30728F381A3}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5140555000538,7.93139999973358,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Almirante Padilla</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B965DDCD-C287-4F75-AA99-5C83680453F1}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9271388873727,11.5235555556423,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO INTERNACIONAL EL DORADO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B3EDC960-B1BB-4472-A654-C74F5F856408}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.160003210556,4.69840242103586,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">RAFAEL NUÑEZ</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{BE08C6AA-14B2-4972-8DAA-3A6A7C4B2F9E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.515333959283,10.4449415958155,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GAMARRA / PALONEGRO</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{F58A600B-ED32-4A58-A146-F39A8D617108}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1880972310459,7.12195083567652,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">EL CARMEN DE CHUCURI</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{17760505-7758-40B3-AA4E-6379F5EE85BB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5544400007058,6.74054999967176,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SOCORRO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{54404D47-569B-469A-9346-B4488F424894}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2563879996915,6.38666000023465,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CIMITARRA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E5215B81-EBD7-4788-A961-2078347683BB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0166659997896,6.45000000001172,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">BARBOSA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E756C84D-B8F9-402B-BA96-40E6FCE929B6}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6091000002413,5.94832999986999,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">REYES MURILLO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E7FAB7B3-CBB5-4074-94D9-E0CF676EDC9C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.2527699998196,5.70000000080529,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">JURADO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{57E8724F-8D2A-441B-9843-6A5A26789E9B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.7402769999565,7.09166600008589,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Capurganá</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{3B648EE4-041A-40A5-A9AD-2427613B6E34}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3496399564238,8.63223946138573,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO BENITO SALAS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{8526F4D8-3B19-4CE0-AEBD-A65A80350A71}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2873798624436,2.96179093180249,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">YARIGUIES</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{ACE77F11-A426-466C-BCE9-D46E5444A982}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8081229637694,7.02632376369888,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CONDOTO MANDINGA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E1629A15-B596-4A81-8B87-1BBDD9CDE15D}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7000000004073,5.08332999938342,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AERPUERTO INTERNACIONAL ALFONSO BONILLA ARAGON</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E72B2F97-EBC7-431D-9DE7-572ED71B6032}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.3811042669548,3.53839958746293,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Jose Celestino Mutis</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{67A47AAE-223C-4509-AB89-5E0946996471}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.3924431793406,6.20185428268149,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aereopurto San Jose de Guaviare</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2EED56FF-67AA-47A7-9E69-37A1AA3DA99F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6170768517102,2.57098785135023,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ANTONIO NARIÑO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{275E50C0-3855-4944-B988-F11EF5F7A239}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.290983332591,1.39659644486815,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MONTECITOS OESTE</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{DF757DAD-6469-4AD5-8FAE-7785A473774F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.4319853206132,7.97248203373701,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Berástegui</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B30B0B1B-4B7F-482C-9D8C-AE57F106E6B9}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.6833299997891,8.88329999938254,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Mompos - San Bernardo</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{7DA7AD1A-5A78-4447-B807-3B98F440D8D5}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.4500000001723,9.24999999969923,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{338F6C5C-1E74-4121-9113-13F39E036DC1}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9944000001469,10.7444000001371,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto El Carmen de Bolivar</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{4EEEB89D-3362-4655-8D43-14E0DBACDFAE}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1231948144764,9.68161749839529,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">VILLANUEVA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{10385EBD-CFF4-4AE3-A45D-B866CA054F96}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.0171584691248,10.5923914530061,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Tolú</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E2873705-65EA-43BA-8660-DB180CB39B87}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5867133364588,9.51182149220746,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO OBANDO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{42C85419-82CD-481B-B4DE-37F9A2845186}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.9064670362334,3.85602253596862,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO INTERNACIONAL ERNESTO CORTISSOZ</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{807AA334-3B6F-4626-95DA-8C466F88B70E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7806769994187,10.8894609994199,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Guillermo León Valencia</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{7659ECBF-CC0D-44CC-A34D-30036321D10C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.6090055152827,2.45455000339077,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO INTERNACIONAL JOSE MARIA CORDOVA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A84F2A14-7641-44BC-A0C1-7119259A2515}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.4231100005057,6.16453300085898,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ENRIQUE OLAYA HERRERA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{64830C75-FB39-497B-A04A-216CC1E81CC7}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.5904472197041,6.22035832985952,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MATECAÑA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D7F86AB5-415A-4A20-89F1-21F0725B0078}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7393969995092,4.81269700007775,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto  Cachiporro</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{1DBB7184-028F-454F-9FD2-B554B129BEA9}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.2419563882185,1.25956635959219,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2BE368EE-5EAD-4F96-89CB-3ADAFE182B7A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-67.4969447101314,6.18755412712041,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">YOPAL (EL ALCARAVÁN)</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{B0B44E2F-06A3-417E-AA3D-0936E17A50E4}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3838098303997,5.31764229876369,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">APIAY</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{28FD7D14-6973-4DAA-AE04-3555F9FF9F9F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5661111111903,4.07861111089565,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO VANGUARDIA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{4AF9B552-D8B1-4B1B-8F0E-1E6D4EC11535}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.6133272650964,4.16906408608855,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">BARRANCO MINAS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A1886AE5-C8CB-4AD1-9B4A-88A76EF23246}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-69.7905540228327,3.4841920582845,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Simón Bolívar</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{C89F14CD-0D17-4EBD-BB59-AF466F12F7C4}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2307999996404,11.119715999744,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ALFONSO LOPEZ PUMAREJO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D4D7B673-E210-418F-B04D-068A8C2AD87C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.25228604372,10.4339994508473,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">GUSTAVO ARTUNDUAGA PAREDES / FLORENCIA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{BCB118B0-40D7-489C-8781-5DB43D4F0046}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.6118071994887,1.61497885442344,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SANTIAGO PEREZ QUIROGA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{08F02AC9-6259-4FDC-8A78-C6B491865031}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.7369359999464,7.06891100068644,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{E98CC6F0-8EA1-4DFC-9D77-F3D7EB9799B1}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.1283299996508,6.58444000018733,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CARURU</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{4E729870-003B-4A1F-B56F-C4AE84A37BDB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2869813608725,1.01281808799535,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{7857CC50-FD7C-4AFE-BC3D-B21BA12AA3E4}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.603888879809,0.983055556253234,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Puerto Leguízamo</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{4173E66F-6518-46BF-BF56-F8AD81C239BF}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7355582232115,-0.169180103600174,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{D9284FA3-AB60-44A1-AA60-508388409604}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.0851759004844,2.44940328548164,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto Iscuande</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{6599C171-78F0-4A5F-AB13-B10740D926C0}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.979337544208,2.44089841331603,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">3 DE MAYO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{C00466D9-FC59-4591-A98D-39D1BF16A1F8}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4918560663053,0.505153936081511,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">EL CHARCO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{9797A068-8A7D-4265-821F-76CF02B57D7C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.0999999990854,2.44083333290629,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">IPIALES</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{954C67EF-2AFD-4C6A-9851-4CC1302CA524}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.6718766788031,0.861964145718283,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">TIMBIQUI</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{3247C7A8-A285-48DE-A32E-6BB2DAD441BB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.6611111102955,2.77083333244715,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LOPEZ DE MICAI</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{79ABAA63-65C0-4B0E-89A4-EEEDB7547724}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.1949999993911,2.95388888892863,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">JUAN CASIANO</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{4D3ECB0F-ABA4-4966-830A-BBDFE05F7F6A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.9023569547496,2.58430616646129,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">TRES ESQUINAS</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{7B673996-238B-45F7-A816-41A322D4C482}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2166666657925,0.733333333172855,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{912884A4-9E6E-4BD1-BC68-DE2A3AF6F329}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.230802780461,11.1197166722126,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SAN VICENTE DEL CAGUAN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E484AEDA-64AE-4B76-90C9-45E7AC1E029C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7669069475028,2.15251659790099,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">URRAO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{C82809E9-6B65-44AE-B389-AC95E6457F33}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.1666599996233,6.33332999975444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AERODROMO VIGIA DEL FUERTE</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D24F920C-846F-4C44-B2AC-6EC487FCE188}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.883618736756,6.58487821325272,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PUERTO PERALES</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A5D3A338-1E4C-4A09-9E68-42B4F007E5A8}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.5741665993599,5.99361100019669,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA MORELA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{185CA3AB-0EED-4407-8646-4C66E712FF1E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.4166660000307,6.45000000033906,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MUTATA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{5E60B4D8-4A39-4624-9583-00C537E4608B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4486109991117,7.2536111009672,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA PROVIDENCIA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{1DF3B477-0A6F-4DE7-A037-584F3BB30962}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7252770000294,7.16527699989364,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aerodromo El Carmen de Guamal</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{F0EBAC5F-8A0D-4B26-B4B0-EF143E1E8637}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2119399997163,9.17027700050047,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aerodromo El Banco</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{98D7FD22-AA62-4C58-BF53-15A6C2882692}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.9755000003976,9.05861099937868,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PLATO LAS FLORES</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{76C2B337-688F-4827-B1D8-BF05EA9E9F8A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.7898883942467,9.80454536910763,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA VICTORIA NUEVA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{2E9ED1D5-E828-4F1C-ACD7-D91BFF7B5076}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2635589849036,10.0650809746705,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Maicao</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{2EB99BC1-F9FC-416B-9636-08051601AD2F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.2385304295755,11.3996882358271,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Carimagua</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A951CC35-D60B-4F8D-930D-9491A2A9037E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.332721922986,4.55731991067345,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{425BA3E8-E9A7-4545-BB03-11CC06D1EE50}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.8789679422007,0.652426416396157,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto La Pedrera</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{325E37D5-35AB-43AD-9EB6-6675B261FCA9}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-69.5811308369458,-1.32172146767133,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{D5B5607A-CCBA-4BF7-82B7-33C9E17AE46E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3920442556446,-0.597634092593217,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{E7899E22-05A1-4527-8E1E-5B12FBBE8FCF}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3779166179194,-0.605565225498159,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{999C29FD-2BB7-478C-8E97-A5A3026DE7A5}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-68.6586565661773,5.55014791258956,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{D71C1CA5-4DB4-4A68-B9AB-596CDAB11731}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3310891653126,5.55884282531483,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{4126E496-B61F-4B2B-991B-8E320D96E06E}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-77.2910352593372,1.39684096298539,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{DF29EF49-A678-465E-A6B7-2F6C25A46666}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.3332649242187,5.55956807792746,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">El Retiro</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{2575BAC7-9632-4A6F-99BC-F42941A0EECA}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.6017755327015,2.10250167254965,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SAN MARTIN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{E5902217-49A0-4820-B1D7-9DDB6F2A9C70}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.7154745882567,3.68593971594495,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{A5B0F971-277B-4B81-B360-643026AE8E7B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.2310094646063,4.11130545873059,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Solano</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{45B54CD3-5B62-4AF1-A373-01AA10D5FF3A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.2564140897056,0.698737052502656,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Calamar Guaviare</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{DF022A9E-DF26-445B-8A58-0818244CED48}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.6466344158215,1.9667831487004,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ORITO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{0F033C29-5F37-4B17-9E19-C6EEA02F0089}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.8759100143121,0.669419077824424,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">SOLITA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{1D97258A-ECA0-43FE-A8B9-5FB51CC20B1A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.6118619965439,0.877168159078603,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PAYAN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{F908975B-DEB5-42F6-9770-E51F993102D3}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.1810300937117,1.760428198768,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{6813BE6F-7304-4258-A0B0-70DF35BDDE29}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.4216170735433,6.89305226899178,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{0351147E-8F39-455A-A05B-BF3F6018DE31}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.8106842943991,7.5798054717492,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{FB67DBBC-3B48-4DEB-B6EC-707D7AD1D48F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-68.6792577501595,5.54048481914841,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Gualabao</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{3A1C9E7E-A8E0-4467-95A9-8858BBC0B6B4}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.5103213591729,7.94150129524871,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{521C2329-8F96-4C33-AA3F-2779B99F1FBF}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.3977895479208,7.01973465749647,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LA ESTERLINA EAST</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{4BB36158-9395-4DF7-B1F4-CAFCD3D507AC}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.7243845910422,8.19747860663699,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{4E47DD4A-4C94-47F3-84F5-63FC01BC1C4F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.769234796738,7.36721834239852,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{E6BD04A4-32E3-4F81-8026-BD8940F42E0A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5696505654234,7.16437732397015,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{BDD6439F-051F-450C-9D6B-EBD83F3E720D}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.8062520878462,7.02451699143718,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{3FF00250-DB9E-42F9-BE15-72620C4788B2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0439987639497,7.96348917009721,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{62C36B58-4C43-4470-ACA2-19E53F52386A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.9633785784417,7.9302231089805,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MORALES NOROESTE</SimpleData>
+		<SimpleData name="PROYECTO">MORALES NOROESTE</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{A0905465-B8BA-478E-B545-D15C07809B97}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.9200490413399,7.36770443012184,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AGUAS CLARAS</SimpleData>
+		<SimpleData name="PROYECTO">AGUAS CLARAS</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{F6F250A5-50A4-4F2A-8E8D-FD84386FB9D1}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2496754765451,7.28319210556863,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">PISTA DE ATERRIZAJE</SimpleData>
+		<SimpleData name="PROYECTO">PISTA DE ATERRIZAJE</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{F9EC7A4F-C034-4964-B434-2017B90FF937}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.5666638472359,7.27479300066183,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">LOS PAJAROS</SimpleData>
+		<SimpleData name="PROYECTO">LOS PAJAROS</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{54526578-F68D-48CC-8BDA-B23682BE59B8}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.8085064363728,7.23774525705366,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{44A710AD-3B07-4D71-BD9A-9F5E79949309}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-70.4668009040694,5.49506893646034,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{E28392FE-69DD-4D12-9279-83D26241CF08}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.1067369862303,6.28613463611387,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">El Tapón</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{144F6FC6-3658-4563-9A04-C2BE0A88069A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-69.1833333031689,5.15000000291118,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">El Cimarrón</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{3734E855-BC93-4AEF-9C4F-DBB855D51C94}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-69.25611109711,5.93694443830273,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto El Carmen</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{1A39CD63-329F-46DD-94E9-343FA0CDF868}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.1456889881663,9.63211181934957,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Aeropuerto El Edén</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{00D963F3-8A66-4C2B-87B5-E324DCF83354}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7659806671058,4.45324286435956,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Puerto Estrella</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{519B415A-84A4-40BB-8A1D-0B7416F8F96C}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.2999999973662,12.350000000924,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">NUEVA GRANADA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{D2ADD801-E507-40FF-8165-35B267706A1A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.378873022466,9.6019970667114,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">CODAZZI/FADECO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{D2F69FAC-CB34-471C-AE30-F2290031557F}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-73.2503598408447,10.0156516791948,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{C39A0B05-473A-4A3D-819E-56AEB1AF65C0}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7390582392301,7.80628166945528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Lorica</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{EAA6CC1A-B1FB-46C2-A94C-59019D9AAA37}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.8253556422935,9.27013498444987,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">San Bernardo Del Viento</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{66F4B947-7E10-41F9-9B06-EC39F631748A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.8974458750076,9.3057785629903,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Momil</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{2FD48CBF-9970-4394-AF22-E295454DFA1B}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.6775360392757,9.24753305775405,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Rabo Pelado Oeste</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{0F6AC038-6C62-4F8D-87FF-0F5A49C0BFF2}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.099350194057,9.10833300507149,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Santa Teresa</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{9825A420-37C3-4F4C-A22D-3EBAA0E0B027}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4204179747807,8.64985698643926,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Brasilia</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{98662BA7-756B-49AA-BC99-3023C27F5B31}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.2378767795854,8.73726954937617,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">San José Sur</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{5090F56A-728C-499B-9134-49ED26034BEB}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.2560585909668,8.93387633248048,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{89CFF153-52F1-4F29-9C42-8937A809F071}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.893990289271,8.58332702076156,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{F1B86D6D-A532-48AA-A86A-EE917BE5BAF3}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.9000000005645,10.8833333327482,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{AEA6AAC9-DC65-4169-B7C8-E6A3A480AFDC}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.083806682675,4.28493360033993,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AEROPUERTO FUNDACIÓN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{CED8A86C-6511-4EBE-AA97-1CE716203332}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.2094254997952,10.5152106204612,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">ARARACUARA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{51FE62CF-93C2-46C1-8440-7A2275451A8D}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.3979749999418,0.600727778539014,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MORICHAL PAPUNAGUA</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">1</SimpleData>
+		<SimpleData name="GLOBALID">{796B070D-E818-4011-84F7-4A646A2A038A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-72.8833333325432,2.0000000000171,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">AMALFI</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{A26BBF7B-DBD0-404B-8D5A-41BE17DC3312}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.0714810144502,6.89578696856444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">Arboletes</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{3549962C-6A64-4C8F-B73C-36123C980ADE}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4375729088046,8.82602042627202,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">MURINDO</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{FE45233E-5FD7-40EC-920F-267663C0FD7A}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.8115125940126,6.98803601400814,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Aeropuertos">
+		<SimpleData name="NOMBRE_GEO">EL EDEN</SimpleData>
+		<SimpleData name="SYMBOL">1</SimpleData>
+		<SimpleData name="FECHA">2008/08/21</SimpleData>
+		<SimpleData name="ESCALA">0</SimpleData>
+		<SimpleData name="GLOBALID">{C9F1177E-F6B5-4F8A-8C47-589228126640}</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.7646727981405,4.4597443439453,0</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

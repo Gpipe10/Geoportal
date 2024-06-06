@@ -1,0 +1,642 @@
+<style>
+    body, * {
+        font-family: Arial, sans-serif;
+    }
+
+    .imagen-personalizada {
+        width: 180px; /* Cambia este valor al tamaño que desees */
+        height: auto; /* Esto asegura que la proporción de la imagen se mantenga */
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .pv-menu-list {
+        text-align: left;
+    }
+
+    .custom-control {
+        text-align: left;
+    }
+
+    .custom-control-label {
+        text-align: left;
+    }
+
+
+    .form-check-label {
+        margin-bottom: 0; /* Ajusta este valor según tus preferencias */
+    }
+
+    .modal {
+        display: none;
+        position: absolute;
+        top: 30%; /* Alinea el modal debajo del botón */
+        left: 60%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+
+    .modal-content {
+        background-color: #333; /* Fondo oscuro */
+        color: #fff; /* Texto blanco */
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        max-width: 200px;
+    }
+
+    .title-section h8 {
+        margin: 0;
+        color: #fff;
+        font-weight: bold;
+        font-size: medium;
+        text-align: left; /* Alinea el texto a la izquierda */
+    }
+
+
+    /* Estilo para el botón "Select Files" */
+
+    .custom-button {
+        background: transparent; /* Fondo transparente */
+        border: none; /* Eliminar borde */
+        transition: background-color 0.3s ease; /* Agregar transición para hover */
+    }
+
+        .custom-button:hover {
+            background-color: rgba(25, 40, 44, 1); /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        .custom-button i {
+            color: #fff; /* Color del ícono */
+            font-size: 20px; /* Tamaño de fuente del ícono (ajusta según tu preferencia) */
+            margin-right: 10px; /* Aumenta el espacio entre el ícono y el texto (opcional) */
+        }
+
+
+
+    /* Estilo para el botón "Cancel" */
+    #closew {
+        background-color: #990000; /* Rojo oscuro */
+        color: #fff; /* Texto blanco para el botón Cancel */
+        padding: 5px 10px; /* Tamaño más pequeño */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px; /* Agregar margen para separar los botones */
+    }
+
+        #closew:hover {
+            background-color: #550000; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+    /* Estilo para el botón "Save" */
+    #saveFile {
+        background-color: #006600; /* Verde oscuro */
+        color: #fff; /* Texto blanco para el botón Save */
+        padding: 5px 10px; /* Tamaño más pequeño */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px; /* Agregar margen para separar los botones */
+    }
+
+        #saveFile:hover {
+            background-color: #004400; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+    /* Estilo para el botón "Select Files" */
+    #fileInput {
+        background-color: #0077B6; /* Azul oscuro */
+        color: #fff; /* Texto blanco para el botón Select Files */
+        padding: 5px 10px; /* Tamaño más pequeño */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px; /* Agregar margen para separar los botones */
+    }
+
+        #fileInput:hover {
+            background-color: #005D93; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+    /* Estilo para el botón "Open Modal" */
+    #openmodal {
+        text-align: center;
+        width: 40px; /* Ajusta el ancho del botón según tus preferencias */
+    }
+
+        #openmodal i {
+            margin-left: 2px;
+        }
+
+    /* Estilo para el botón con solo el icono */
+    .icon-button {
+        width: 40px; /* Ajusta el ancho del botón según tus preferencias */
+        display: flex;
+        justify-content: center;
+    }
+
+        .icon-button i {
+            margin-right: 0; /* Elimina el margen derecho para centrar el icono horizontalmente */
+        }
+
+    /* Estilo para el botón de entrada (input) */
+    #fileInput {
+        padding: 5px; /* Reduce el espacio interno del input */
+        border: 1px solid #ccc; /* Agrega un borde para resaltar el input */
+        border-radius: 5px;
+        width: 150px; /* Ajusta el ancho del input según tus preferencias */
+    }
+
+    .custom-buttons {
+        background-color: #0073e6; /* Azul */
+        color: #fff; /* Texto blanco para el botón */
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 5px;
+    }
+
+        .custom-buttons:hover {
+            background-color: #005B8C; /* Cambia el color de fondo al pasar el mouse */
+        }
+
+
+    #slider {
+        display: none;
+        position: absolute;
+        left: 50%;
+        top: 0px;
+        background-color: #17202A;
+        width: 10px;
+        height: 100%;
+        z-index: 9999;
+        opacity: 0.5;
+    }
+
+        #slider:hover {
+            cursor: ew-resize;
+        }
+
+
+    form {
+        background-color: #333; /* Color de fondo del formulario */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+
+
+    .pepe {
+        width: calc(100% - 8px);
+        padding: 1px;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para input */
+        color: white;
+        text-align: center; /* Alineación del texto al centro */
+    }
+
+
+
+    .output-label {
+        margin-top: 10px;
+        display: block;
+        font-weight: bold;
+    }
+</style>
+
+
+
+<div id="sidebar_root" class="">
+    <div id="sidebar_header" style="text-align: center;">
+        <div style="display: flex; justify-content: center;">
+            <img src="/bv.png" class="imagen-personalizada" style="padding: 0.5rem;">
+
+        </div>
+        <br>
+
+    </div>
+    <div>
+        <div id="potree_menu" class="accordion">
+
+
+            <h3 id="menu_load"><span>LANGUAGES</span><i class="bi bi-chevron-down"></i></h3>
+            <div style="display: flex; justify-content: center;">
+                <div id="potree_languages" style="font-family: Arial; margin-right: 60px"></div>
+
+            </div>
+
+
+
+            <!-- MI CÓDIGO - CARGA -->
+            <hr>
+
+            <h3 id="menu_load"><span>DATA MANAGEMENT</span><i class="bi bi-chevron-down"></i></h3>
+
+            <div style="text-align: center;">
+
+
+                <div style="display: flex; justify-content: center; align-items: center; margin: 10px 0;">
+                    <button id="openmodal" class="custom-button icon-button">
+                        <i class="fa-solid fa-folder-open"></i>
+                    </button>
+
+
+
+
+
+                    <div style="margin: 0 10px;"></div> <!-- Agrega un espacio entre los botones -->
+                    <button id="deletefile" class="custom-button icon-button">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+
+
+
+                </div>
+
+
+                <div id="overlay"></div><div id="overlay"></div>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+
+                        <div class="title-section">
+                            <h9>LOAD FILES</h9>
+                        </div>
+                        <hr>
+
+                        <!-- Contenido del modal -->
+                        <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 10px;">
+                            <label for="fileInput" class="custom-buttons">
+                                Select File
+                            </label>
+                            <input type="file" id="fileInput" name="file_key" style="display: none;" accept=".las, .laz">
+
+                        </div>
+
+                        <hr>
+                        <div class="title-section">
+                            <h9>SELECTED FILE:</h9>
+                        </div>
+
+                        <br>
+                        <p id="selectedFileName" style="display: none;"></p>
+                        <hr>
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="gison">
+                            <label class="form-check-label" for="data1">GIS</label>
+                        </div>
+
+                        <hr>
+                        <div class="title-section">
+                            <h9>WSG84 INPUT</h9>
+                        </div>
+
+                        <br>
+                        <div id="formulario-container">
+                            <!-- Entradas del formulario -->
+                            <label for="latitud">Latitud:</label>
+                            <input type="text" id="latitud" name="latitud" required class="pepe">
+
+                            <label for="longitud">Longitud:</label>
+                            <input type="text" id="longitud" name="longitud" required class="pepe">
+
+                            <label for="zona">Zona UTM:</label>
+                            <input type="text" id="zona" name="zona" required class="pepe">
+                        </div>
+
+
+
+                        <hr>
+                        <!-- Botones Cancel y Save -->
+                        <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                            <button class="custom-button" id="closew">Cancel</button>
+                            <button class="custom-button" id="saveFile">Save</button>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <hr>
+
+            <!-------------------------------------------------------------------------------------------------------->
+
+
+
+            <h3 id="menu_load"><span>VIEWER</span><i class="bi bi-chevron-down"></i></h3>
+
+            <div style="text-align: center;">
+
+                <div style="display: flex; justify-content: center; align-items: center; margin: 10px 0;">
+                    <button id="reloadess" class="custom-button icon-button">
+                        <i class="fa-solid fa-arrow-rotate-right"></i>
+                    </button>
+
+                    <div style="margin: 0 10px;"></div>
+
+                    <button id="toggleButton" class="custom-button icon-button">
+                        <i class="fa-solid fa-circle-half-stroke"></i>
+                    </button>
+
+                    <div style="margin: 0 10px;"></div>
+
+                    <button id="mapSelectorButton" onclick="toggleMapModal()" class="custom-button icon-button">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </button>
+
+
+                  
+
+
+                </div>
+
+                <!-------------------------------------------------------------------------------------------------------->
+
+                <div id="mapModal" onclick="closeMapModal()">
+                    <div id="mapSelector">
+                        <div class="mapItem" onclick="changeMap('mapa1')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/bingAerial.png" alt="Map 1">
+                            <div class="mapName">Mapa Aéreo</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa2')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/bingAerialLabels.png" alt="Map 2">
+                            <div class="mapName">Mapa Aéreo con etiquetas</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa3')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/bingRoads.png" alt="Map 3">
+                            <div class="mapName">Mapa Carreteras</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa4')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/sentinel-2.png" alt="Map 4">
+                            <div class="mapName">Centinela-2</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa5')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/blueMarble.png" alt="Map 5">
+                            <div class="mapName">Canica Azul</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa6')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/ArcGisMapServiceWorldImagery.png" alt="Map 6">
+                            <div class="mapName">Argis World</div>
+                        </div>
+                        <div class="mapItem" onclick="changeMap('mapa7')">
+                            <img class="mapThumbnail" src="Cesium/Build/CesiumUnminified/Widgets/Images/ImageryProviders/openStreetMap.png" alt="Map 7">
+                            <div class="mapName">Mapa Openstreet </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-------------------------------------------------------------------------------------------------------->
+
+                <div class="divider"><span>Software</span></div>
+
+
+
+                <selectgroup id="background_options">
+                    <option id="colnone" value="null">
+                        <i class="fa-solid fa-globe"></i>
+                    </option>
+
+                    <option id="colblack" value="black">
+                        <i class="fa-solid fa-cubes"></i>
+                    </option>
+                </selectgroup>
+
+
+
+
+
+
+
+
+                <div class="divider"><span>Display</span></div>
+
+                <ul class="menuviewer">
+                </ul>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <hr>
+            <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <!-- APPEARANCE -->
+            <h3 id="menu_appearance"><span data-i18n="tb.rendering_opt"></span></h3>
+            <div>
+                <ul class="pv-menu-list">
+                    <li><span data-i18n="appearance.nb_max_pts"></span>: <span id="lblPointBudget"></span> <div id="sldPointBudget"></div></li>
+                    <li><span data-i18n="appearance.field_view"></span>: <span id="lblFOV"></span><div id="sldFOV"></div></li>
+
+                    <div class="divider"><span>Eye-Dome-Lighting</span></div>
+
+                    <li><label><input type="checkbox" id="chkEDLEnabled" /><span data-i18n="appearance.edl_enable"></span></label></li>
+                    <li><span data-i18n="appearance.edl_radius"></span>: <span id="lblEDLRadius"></span><div id="sldEDLRadius"></div></li>
+                    <li><span data-i18n="appearance.edl_strength"></span>: <span id="lblEDLStrength"></span><div id="sldEDLStrength"></div></li>
+                    <li><span data-i18n="appearance.edl_opacity"></span>: <span id="lblEDLOpacity"></span><div id="sldEDLOpacity"></div></li>
+
+
+                    <!--<div class="divider"><span>Other</span></div>-->
+                    <!--<li>
+                            <selectgroup id="splat_quality_options">
+                                <option id="splat_quality_options_standard" value="standard">Standard</option>
+                                <option id="splat_quality_options_hq" value="hq">High Quality</option>
+                            </selectgroup>
+                        </li>
+
+                        <li><span data-i18n="appearance.min_node_size"></span>: <span id="lblMinNodeSize"></span><div id="sldMinNodeSize"></div></li>
+                        <li><label><input id="show_bounding_box" type="checkbox" /><span data-i18n="appearance.box"></span></label></li>
+                        <li><label><input id="set_freeze" type="checkbox" /><span data-i18n="appearance.freeze"></span></label></li>
+                    </ul>-->
+
+            </div>
+            <hr>
+            <!-- TOOLS -->
+            <h3 id="menu_tools"><span data-i18n="tb.tools_opt"></span></h3>
+            <div class="pv-menu-list">
+
+                <div class="divider"><span>Measurement</span></div>
+
+                <li id="tools"></li>
+
+                <li>
+                    <selectgroup id="measurement_options_show">
+                        <option id="measurement_options_show_yes" value="SHOW">Show</option>
+                        <option id="measurement_options_show_no" value="HIDE">Hide</option>
+                    </selectgroup>
+                </li>
+
+                <div class="divider"><span>Clipping</span></div>
+
+                <li id="clipping_tools"></li>
+
+                <li>
+                    <selectgroup id="cliptask_options">
+                        <option id="cliptask_options_none" value="NONE">None</option>
+                        <option id="cliptask_options_highlight" value="HIGHLIGHT">Highlight</option>
+                        <option id="cliptask_options_show_inside" value="SHOW_INSIDE">Inside</option>
+                        <option id="cliptask_options_show_outside" value="SHOW_OUTSIDE">Outside</option>
+                    </selectgroup>
+                </li>
+
+                <li>
+                    <selectgroup id="clipmethod_options">
+                        <option id="clipmethod_options_any" value="INSIDE_ANY">Inside Any</option>
+                        <option id="clipmethod_options_all" value="INSIDE_ALL">Inside All</option>
+                    </selectgroup>
+                </li>
+
+                <div class="divider"><span>Navigation</span></div>
+
+                <li id="navigation"></li>
+
+                <li><span data-i18n="appearance.move_speed"></span>: <span id="lblMoveSpeed"></span><div id="sldMoveSpeed"></div></li>
+            </div>
+            <hr>
+            <!-- SCENE -->
+            <h3 id="menu_scene"><span data-i18n="tb.scene_opt"></span></h3>
+            <div class="pv-menu-list">
+
+                <div id="scene_export"></div>
+
+                <div class="divider"><span>Objects</span></div>
+
+                <div id="scene_objects"></div>
+
+                <div class="divider"><span>Properties</span></div>
+
+                <div id="scene_object_properties"></div>
+            </div>
+            <hr>
+            <!-- Classification -->
+            <h3 id="menu_filters"><span data-i18n="tb.filters_opt"></span></h3>
+            <div>
+
+                <div class="divider"><span>Classification</span></div>
+
+                <ul id="classificationList" class="pv-menu-list"></ul>
+
+                <div class="divider"><span>Returns</span></div>
+
+                <div id="return_filter_panel">
+                    <ul class="pv-menu-list">
+
+                        <li><span data-i18n="filters.return_number"></span>: <span id="lblReturnNumber"></span> <div id="sldReturnNumber"></div></li>
+                        <li><span data-i18n="filters.number_of_returns"></span>: <span id="lblNumberOfReturns"></span> <div id="sldNumberOfReturns"></div></li>
+
+                    </ul>
+                </div>
+
+                <div class="divider"><span>Point Source ID</span></div>
+
+                <div>
+                    <ul class="pv-menu-list" id="pointsourceid_filter_panel">
+                    </ul>
+                </div>
+
+                <div class="divider"><span>GPS Time</span></div>
+
+                <div id="gpstime_filter_panel">
+
+                    <ul class="pv-menu-list">
+                        <div id="gpstime_multilevel_range_container">
+
+                        <li>
+                            <span style="display: flex">
+                                <span>Time: </span>
+                                <input id="txtGpsTime" type="text" style="margin: auto 10px" />
+                                <input id="btnFindGpsTime" type="button" value="find" />
+                            </span>
+                        </li>
+
+                </div>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <hr>
+        <!-- ABOUT -->
+        <h3 id="menu_about"><span data-i18n="tb.about_opt"></span></h3>
+        <div>
+            <br>
+            <br>
+            <ul class="pv-menu-list">
+                <li>
+
+                    BUREAU VERITAS
+                    <br>
+                    <br>
+                    <a href="https://www.bureauveritas.com.co/es" target="_blank">
+                        <div style="display: flex; justify-content: center;">
+                            <img src="/bv.png" width="150" style="padding: 0.5rem;">
+                        </div>
+
+                    
+                    </a> 
+                    <br>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <br>
+        <br>
+        <br><br><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+    </div>
+
+    <div>
+
+    </div>
+
+</div>

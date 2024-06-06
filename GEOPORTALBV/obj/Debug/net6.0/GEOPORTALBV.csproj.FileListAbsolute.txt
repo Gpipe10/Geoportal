@@ -1,0 +1,85 @@
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.Development.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.staticwebassets.runtime.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.exe
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.deps.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.runtimeconfig.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.dll
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.pdb
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfoInputs.cache
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfo.cs
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.csproj.CoreCompileInputs.cache
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cache
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cs
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.GEOPORTALBV.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.build.GEOPORTALBV.props
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GEOPORTALBV.props
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GEOPORTALBV.props
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.build.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.development.json
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\scopedcss\bundle\GEOPORTALBV.styles.css
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.dll
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\refint\GEOPORTALBV.dll
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.pdb
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.genruntimeconfig.cache
+D:\Users\Danie\UNIVERISDAD\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\ref\GEOPORTALBV.dll
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.Development.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.staticwebassets.runtime.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.exe
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.deps.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.runtimeconfig.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.dll
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.pdb
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfoInputs.cache
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfo.cs
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.csproj.CoreCompileInputs.cache
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.MvcApplicationPartsAssemblyInfo.cache
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cache
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cs
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.build.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.development.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.GEOPORTALBV.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.build.GEOPORTALBV.props
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GEOPORTALBV.props
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GEOPORTALBV.props
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\scopedcss\bundle\GEOPORTALBV.styles.css
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.dll
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\refint\GEOPORTALBV.dll
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.pdb
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.genruntimeconfig.cache
+D:\Users\Danie\BACKUP PRACTICAS\BACKUP PRACTICAS\GEOPORTALBV\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\ref\GEOPORTALBV.dll
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\appsettings.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.staticwebassets.runtime.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.exe
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.deps.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.runtimeconfig.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.dll
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\bin\Debug\net6.0\GEOPORTALBV.pdb
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfoInputs.cache
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.AssemblyInfo.cs
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.csproj.CoreCompileInputs.cache
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cache
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.RazorAssemblyInfo.cs
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.sourcelink.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.GEOPORTALBV.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.build.GEOPORTALBV.props
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GEOPORTALBV.props
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GEOPORTALBV.props
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\scopedcss\bundle\GEOPORTALBV.styles.css
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.dll
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\refint\GEOPORTALBV.dll
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.pdb
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\GEOPORTALBV.genruntimeconfig.cache
+C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\obj\Debug\net6.0\ref\GEOPORTALBV.dll

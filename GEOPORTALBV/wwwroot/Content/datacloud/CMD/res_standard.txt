@@ -1,0 +1,71 @@
+#threads: 12
+#paths: 1
+
+output attributes: 
+name                              offset    size
+================================================
+position                               0      12
+intensity                             12       2
+return number                         14       1
+number of returns                     15       1
+classification flags                  16       1
+classification                        17       1
+user data                             18       1
+scan angle                            19       2
+point source id                       21       2
+gps-time                              23       8
+rgb                                   31       6
+================================================
+                                              37
+================================================
+cubicAABB: {
+	"min": [169900.100000, 555200.581000, 165.677000],
+	"max": [170414.100000, 555714.581000, 679.677000],
+	"size": [514.000000, 514.000000, 514.000000]
+}
+#points: 188'246
+total file size: 6.5 MB
+target directory: 'C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\wwwroot\Content\datacloud\Output\data'
+
+=======================================
+=== COUNTING                           
+=======================================
+tStartTaskAssembly: 0.000329s
+countPointsInCells: 0.039844s
+finished counting in 0s
+=======================================
+createLUT: 0.063373s
+
+=======================================
+=== CREATING CHUNKS                    
+=======================================
+distributePoints0: 0.000440s
+distributePoints1: 0.000449s
+finished creating chunks in 0s
+=======================================
+
+=======================================
+=== INDEXING                           
+=======================================
+sampling: 0.533468s
+flushing: 0.549366s
+metadata & hierarchy: 0.578198s
+deleting temporary files
+
+
+=======================================
+=== STATS                              
+=======================================
+#points:               188'246
+#input files:          1
+sampling method:       poisson
+chunk method:          LASZIP
+input file size:       6.5MB
+duration:              1.015s
+throughput (MB/s)      6MB
+throughput (points/s)  0.2M
+output location:       C:\Users\Danie\OneDrive\Documentos\GEOPORTALBV\GEOPORTALBV\wwwroot\Content\datacloud\Output\data
+duration(chunking-count): 	0.040
+duration(chunking-distribute): 	0.173
+duration(chunking-total): 	0.218
+duration(indexing): 	0.581

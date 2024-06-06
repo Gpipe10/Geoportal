@@ -1,0 +1,39 @@
+
+
+#mapModal {
+    display: none;
+    position: fixed;
+    top: calc(10px + 40px); /* Posición debajo del botón */
+    left: calc(10px); /* Posición al lado del botón */
+    background-color: #333; /* Fondo oscuro */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordes redondos */
+    z-index: 1000;
+}
+
+.mapItem {
+    display: flex;
+    align-items: center;
+    border: 2px solid #fff; /* Borde blanco de 2px */
+    border-radius: 5px; /* Bordes redondos */
+    cursor: pointer;
+    margin-bottom: 10px; /* Espaciado entre filas */
+}
+
+.mapThumbnail {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px 0 0 5px; /* Bordes redondos solo en la parte superior izquierda */
+}
+
+.mapName {
+    padding: 10px;
+    font-size: 12px; /* Tamaño del texto del nombre */
+    white-space: normal; /* Permitir saltos de línea */
+    overflow: hidden; /* Ocultar cualquier exceso de texto */
+    text-overflow: ellipsis; /* Mostrar puntos suspensivos si el texto es demasiado largo */
+    line-height: 1.2; /* Altura de línea para controlar el espacio entre líneas */
+    max-height: 2.4em; /* Máximo de dos líneas (2.4em = 2 líneas a 1.2em por línea) */
+    color: #fff; /* Color blanco del texto */
+}
